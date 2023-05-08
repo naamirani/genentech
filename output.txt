@@ -1,0 +1,8 @@
+[2023-02-12 16:42:55,329][hydra.utils][INFO] - Instantiating <src.pl_data.datamodule.MyDataModule>
+[2023-02-12 16:42:55,691][hydra.utils][INFO] - Instantiating <src.pl_modules.model.MyModel>
+[2023-02-12 16:42:59,042][hydra.utils][INFO] - Adding callback <LearningRateMonitor>
+[2023-02-12 16:42:59,044][hydra.utils][INFO] - Adding callback <EarlyStopping>
+Evaluating with random weights.
+[2023-02-12 16:42:59,045][hydra.utils][INFO] - Instantiating <WandbLogger>
+[2023-02-12 16:42:59,046][hydra.utils][INFO] - W&B is now watching <all>!
+Problem at: /gladstone/finkbeiner/imaging-home/slam/virtualenv/genentech/lib/python3.6/site-packages/pytorch_lightning/loggers/wandb.py 339 experiment

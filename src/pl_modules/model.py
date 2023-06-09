@@ -16,12 +16,12 @@ from captum.attr import IntegratedGradients, GuidedGradCam
 from captum.attr import NoiseTunnel
 from captum.attr import visualization as viz
 
-# from src.common.utils import iterate_elements_in_batches, render_images
+from src.common.utils import iterate_elements_in_batches, render_images
 
 from src.pl_modules import resnets
 from src.pl_modules import losses
 
-from pl_bolts.optimizers.lr_scheduler import linear_warmup_decay
+# from pl_bolts.optimizers.lr_scheduler import linear_warmup_decay
 
 
 class MyModel(pl.LightningModule):

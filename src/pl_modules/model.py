@@ -151,8 +151,7 @@ class MyModel(pl.LightningModule):
             "val_loss": out["loss"].mean(),
         }
 
-    def validation_epoch_end(self, outputs: List[Any]) -> None:
-#     def on_validation_epoch_end(self, *_):
+    def on_validation_epoch_end(self):                                                      # def validation_epoch_end(self, outputs: List[Any]) -> None:
         if hasattr(self.net, "encoder"):
             layer = self.net.encoder.layer4
         else:
@@ -161,8 +160,7 @@ class MyModel(pl.LightningModule):
         batch_size = self.cfg.data.datamodule.batch_size.val
         images, images_feat_viz = [], []
         for output_element in iterate_elements_in_batches(
-            outputs, batch_size, self.cfg.logging.n_elements_to_log
-#             self.validation_step_outputs, batch_size, self.cfg.logging.n_elements_to_log
+            self.validation_step_outputs, batch_size, self.cfg.logging.n_elements_to_log    # outputs, batch_size, self.cfg.logging.n_elements_to_log
         ):  
             rendered_image = render_images(
                 output_element["image"],

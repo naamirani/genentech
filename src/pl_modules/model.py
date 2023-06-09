@@ -151,7 +151,8 @@ class MyModel(pl.LightningModule):
             "val_loss": out["loss"].mean(),
         }
 
-    def on_validation_epoch_end(self, outputs: List[Any]) -> None:
+#     def on_validation_epoch_end(self, outputs: List[Any]) -> None:
+    def on_validation_epoch_end(self, outputs=out):
         if hasattr(self.net, "encoder"):
             layer = self.net.encoder.layer4
         else:

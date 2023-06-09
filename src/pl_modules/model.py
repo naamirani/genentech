@@ -66,7 +66,7 @@ class MyModel(pl.LightningModule):
         else:
             raise NotImplementedError("Could not find network {}.".format(self.net))
 
-        metric = torchmetrics.Accuracy()
+        metric = torchmetrics.Accuracy(task)
         self.train_accuracy = metric.clone().cuda()
         self.val_accuracy = metric.clone().cuda()
         self.test_accuracy = metric.clone().cuda()

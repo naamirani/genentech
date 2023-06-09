@@ -2,4 +2,4 @@
 logging:
   wandb:
     project: genentech
-    entity: naamirani
+    entity: stephanie-lam

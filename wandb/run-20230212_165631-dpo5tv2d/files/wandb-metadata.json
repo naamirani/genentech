@@ -1,0 +1,244 @@
+{
+    "os": "Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-redhat-7.9-Maipo",
+    "python": "3.6.8",
+    "heartbeatAt": "2023-02-13T00:56:31.804252",
+    "startedAt": "2023-02-13T00:56:31.342257",
+    "docker": null,
+    "cuda": "11.0.228",
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/drewlinsley/genentech.git",
+        "commit": "95b9f1f739c62329733cedc5ed07e49ecb8b03cf"
+    },
+    "email": "stephanielamhm@gmail.com",
+    "root": "/gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech",
+    "host": "fb-gpu-compute02.gladstone.internal",
+    "username": "slam",
+    "executable": "/gladstone/finkbeiner/imaging-home/slam/virtualenv/genentech/bin/python",
+    "cpu_count": 40,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1692.2125750000007,
+        "min": 1000.0,
+        "max": 3700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2461.376,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1168.359,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2336.279,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3248.144,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2535.498,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2527.587,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1736.865,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1575.439,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2154.199,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3067.236,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2112.89,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2874.462,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2445.263,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1487.695,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.195,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3096.679,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1465.136,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2807.226,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1850.683,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 3302.783,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 2209.423,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 999.902,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.195,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 999.902,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1265.625,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1958.496,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 999.902,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 999.902,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.341,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.341,
+            "min": 1000.0,
+            "max": 3700.0
+        },
+        {
+            "current": 1000.048,
+            "min": 1000.0,
+            "max": 3700.0
+        }
+    ],
+    "disk": {
+        "total": 925.3486938476562,
+        "used": 60.74784469604492
+    },
+    "gpu": "Tesla V100-PCIE-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-PCIE-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 376.7811965942383
+    }
+}

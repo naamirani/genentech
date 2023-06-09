@@ -1,0 +1,5 @@
+[default]
+entity = naamirani
+project = genentech
+base_url = https://api.wandb.ai
+

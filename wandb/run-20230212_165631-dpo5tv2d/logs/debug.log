@@ -1,0 +1,25 @@
+2023-02-12 16:56:31,426 INFO    MainThread:101178 [wandb_setup.py:_flush():68] Configure stats pid to 101178
+2023-02-12 16:56:31,426 INFO    MainThread:101178 [wandb_setup.py:_flush():68] Loading settings from /finkbeiner/imaging/home/slam/.config/wandb/settings
+2023-02-12 16:56:31,426 INFO    MainThread:101178 [wandb_setup.py:_flush():68] Loading settings from /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/settings
+2023-02-12 16:56:31,426 INFO    MainThread:101178 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-12 16:56:31,426 INFO    MainThread:101178 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-12 16:56:31,426 INFO    MainThread:101178 [wandb_init.py:_log_setup():492] Logging user logs to /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/logs/debug.log
+2023-02-12 16:56:31,426 INFO    MainThread:101178 [wandb_init.py:_log_setup():493] Logging internal logs to /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/logs/debug-internal.log
+2023-02-12 16:56:31,427 INFO    MainThread:101178 [wandb_init.py:init():532] calling init triggers
+2023-02-12 16:56:31,427 INFO    MainThread:101178 [wandb_init.py:init():539] wandb.init called with sweep_config: {}
+config: {}
+2023-02-12 16:56:31,427 INFO    MainThread:101178 [wandb_init.py:init():588] starting backend
+2023-02-12 16:56:31,427 INFO    MainThread:101178 [wandb_init.py:init():592] setting up manager
+2023-02-12 16:56:31,435 INFO    MainThread:101178 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-02-12 16:56:31,441 INFO    MainThread:101178 [wandb_init.py:init():599] backend started and connected
+2023-02-12 16:56:31,447 INFO    MainThread:101178 [wandb_init.py:init():687] updated telemetry
+2023-02-12 16:56:31,472 INFO    MainThread:101178 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-12 16:56:31,676 INFO    MainThread:101178 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-12 16:56:31,765 INFO    MainThread:101178 [wandb_run.py:_on_init():2143] got version response 
+2023-02-12 16:56:31,766 INFO    MainThread:101178 [wandb_init.py:init():775] starting run threads in backend
+2023-02-12 16:56:31,873 INFO    MainThread:101178 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-12 16:56:31,874 INFO    MainThread:101178 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-12 16:56:31,874 INFO    MainThread:101178 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-12 16:56:31,875 INFO    MainThread:101178 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-12 16:56:31,875 INFO    MainThread:101178 [wandb_init.py:init():817] run started, returning control to user process
+2023-02-12 16:57:59,873 WARNING MsgRouterThr:101178 [router.py:message_loop():77] message_loop has been closed

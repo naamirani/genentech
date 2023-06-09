@@ -160,8 +160,8 @@ def run(cfg: DictConfig) -> None:
         log_every_n_steps=10,
         #auto_select_gpus=True,
         # benchmark=True,
-        accelerator=None,  # 'dp', "ddp" if args.gpus > 1 else None,
-        #plugins=[DDPPlugin(find_unused_parameters=True)],
+        # accelerator=None,  # 'dp', "ddp" if args.gpus > 1 else None,
+        # plugins=[DDPPlugin(find_unused_parameters=True)],
         **cfg.train.pl_trainer,
     )
 

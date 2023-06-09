@@ -1,0 +1,212 @@
+2023-02-12 16:56:31,442 INFO    StreamThr :101224 [internal.py:wandb_internal():90] W&B internal server running at pid: 101224, started at: 2023-02-12 16:56:31.438349
+2023-02-12 16:56:31,443 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status
+2023-02-12 16:56:31,447 INFO    WriterThread:101224 [datastore.py:open_for_write():85] open: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/run-dpo5tv2d.wandb
+2023-02-12 16:56:31,450 DEBUG   SenderThread:101224 [sender.py:send():336] send: header
+2023-02-12 16:56:31,473 DEBUG   SenderThread:101224 [sender.py:send():336] send: run
+2023-02-12 16:56:31,674 INFO    SenderThread:101224 [dir_watcher.py:__init__():216] watching files in: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files
+2023-02-12 16:56:31,674 INFO    SenderThread:101224 [sender.py:_start_run_threads():1070] run started: dpo5tv2d with start time 1676249791.44211
+2023-02-12 16:56:31,674 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: summary_record
+2023-02-12 16:56:31,677 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: check_version
+2023-02-12 16:56:31,694 INFO    SenderThread:101224 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-12 16:56:31,695 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: check_version
+2023-02-12 16:56:31,775 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: run_start
+2023-02-12 16:56:31,783 DEBUG   HandlerThread:101224 [system_info.py:__init__():31] System info init
+2023-02-12 16:56:31,783 DEBUG   HandlerThread:101224 [system_info.py:__init__():46] System info init done
+2023-02-12 16:56:31,783 INFO    HandlerThread:101224 [system_monitor.py:start():151] Starting system monitor
+2023-02-12 16:56:31,783 INFO    SystemMonitor:101224 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-02-12 16:56:31,784 INFO    HandlerThread:101224 [system_monitor.py:probe():172] Collecting system info
+2023-02-12 16:56:31,784 INFO    SystemMonitor:101224 [interfaces.py:start():168] Started cpu
+2023-02-12 16:56:31,785 INFO    SystemMonitor:101224 [interfaces.py:start():168] Started disk
+2023-02-12 16:56:31,786 INFO    SystemMonitor:101224 [interfaces.py:start():168] Started gpu
+2023-02-12 16:56:31,786 INFO    SystemMonitor:101224 [interfaces.py:start():168] Started memory
+2023-02-12 16:56:31,786 INFO    SystemMonitor:101224 [interfaces.py:start():168] Started network
+2023-02-12 16:56:31,804 DEBUG   HandlerThread:101224 [system_info.py:probe():195] Probing system
+2023-02-12 16:56:31,805 DEBUG   HandlerThread:101224 [system_info.py:_probe_git():180] Probing git
+2023-02-12 16:56:31,824 DEBUG   HandlerThread:101224 [system_info.py:_probe_git():188] Probing git done
+2023-02-12 16:56:31,824 DEBUG   HandlerThread:101224 [system_info.py:probe():241] Probing system done
+2023-02-12 16:56:31,824 DEBUG   HandlerThread:101224 [system_monitor.py:probe():181] {'os': 'Linux-3.10.0-1160.71.1.el7.x86_64-x86_64-with-redhat-7.9-Maipo', 'python': '3.6.8', 'heartbeatAt': '2023-02-13T00:56:31.804252', 'startedAt': '2023-02-13T00:56:31.342257', 'docker': None, 'cuda': '11.0.228', 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/drewlinsley/genentech.git', 'commit': '95b9f1f739c62329733cedc5ed07e49ecb8b03cf'}, 'email': 'stephanielamhm@gmail.com', 'root': '/gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech', 'host': 'fb-gpu-compute02.gladstone.internal', 'username': 'slam', 'executable': '/gladstone/finkbeiner/imaging-home/slam/virtualenv/genentech/bin/python', 'cpu_count': 40, 'cpu_count_logical': 40, 'cpu_freq': {'current': 1692.2125750000007, 'min': 1000.0, 'max': 3700.0}, 'cpu_freq_per_core': [{'current': 2461.376, 'min': 1000.0, 'max': 3700.0}, {'current': 1168.359, 'min': 1000.0, 'max': 3700.0}, {'current': 2336.279, 'min': 1000.0, 'max': 3700.0}, {'current': 3248.144, 'min': 1000.0, 'max': 3700.0}, {'current': 2535.498, 'min': 1000.0, 'max': 3700.0}, {'current': 2527.587, 'min': 1000.0, 'max': 3700.0}, {'current': 1736.865, 'min': 1000.0, 'max': 3700.0}, {'current': 1575.439, 'min': 1000.0, 'max': 3700.0}, {'current': 2154.199, 'min': 1000.0, 'max': 3700.0}, {'current': 3067.236, 'min': 1000.0, 'max': 3700.0}, {'current': 2112.89, 'min': 1000.0, 'max': 3700.0}, {'current': 2874.462, 'min': 1000.0, 'max': 3700.0}, {'current': 2445.263, 'min': 1000.0, 'max': 3700.0}, {'current': 1487.695, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.195, 'min': 1000.0, 'max': 3700.0}, {'current': 3096.679, 'min': 1000.0, 'max': 3700.0}, {'current': 1465.136, 'min': 1000.0, 'max': 3700.0}, {'current': 2807.226, 'min': 1000.0, 'max': 3700.0}, {'current': 1850.683, 'min': 1000.0, 'max': 3700.0}, {'current': 3302.783, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 2209.423, 'min': 1000.0, 'max': 3700.0}, {'current': 999.902, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.195, 'min': 1000.0, 'max': 3700.0}, {'current': 999.902, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 1265.625, 'min': 1000.0, 'max': 3700.0}, {'current': 1958.496, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 999.902, 'min': 1000.0, 'max': 3700.0}, {'current': 999.902, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.341, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.341, 'min': 1000.0, 'max': 3700.0}, {'current': 1000.048, 'min': 1000.0, 'max': 3700.0}], 'disk': {'total': 925.3486938476562, 'used': 60.74784469604492}, 'gpu': 'Tesla V100-PCIE-16GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla V100-PCIE-16GB', 'memory_total': 17179869184}], 'memory': {'total': 376.7811965942383}}
+2023-02-12 16:56:31,824 INFO    HandlerThread:101224 [system_monitor.py:probe():182] Finished collecting system info
+2023-02-12 16:56:31,825 INFO    HandlerThread:101224 [system_monitor.py:probe():185] Publishing system info
+2023-02-12 16:56:31,825 DEBUG   HandlerThread:101224 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-02-12 16:56:31,828 DEBUG   HandlerThread:101224 [system_info.py:_save_pip():67] Saving pip packages done
+2023-02-12 16:56:31,831 INFO    HandlerThread:101224 [system_monitor.py:probe():187] Finished publishing system info
+2023-02-12 16:56:31,865 DEBUG   SenderThread:101224 [sender.py:send():336] send: files
+2023-02-12 16:56:31,866 INFO    SenderThread:101224 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-02-12 16:56:31,874 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: stop_status
+2023-02-12 16:56:31,874 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: stop_status
+2023-02-12 16:56:31,946 DEBUG   SenderThread:101224 [sender.py:send():336] send: telemetry
+2023-02-12 16:56:32,318 INFO    wandb-upload_0:101224 [upload_job.py:push():138] Uploaded file /tmp/tmpch9ks6tnwandb/1iap1f74-wandb-metadata.json
+2023-02-12 16:56:32,676 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_created():275] file/dir created: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:56:32,677 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_created():275] file/dir created: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/wandb-summary.json
+2023-02-12 16:56:32,677 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_created():275] file/dir created: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/wandb-metadata.json
+2023-02-12 16:56:32,677 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_created():275] file/dir created: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/requirements.txt
+2023-02-12 16:56:34,680 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:56:36,953 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:56:41,957 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:56:46,874 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:56:46,962 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:56:51,876 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:56:51,965 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:56:56,879 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:56:56,970 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:01,882 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:01,978 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:02,728 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/config.yaml
+2023-02-12 16:57:06,884 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:07,105 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:11,887 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:12,108 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:15,752 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:57:16,890 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:17,453 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:21,892 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:22,455 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:26,895 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:27,456 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:31,782 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:57:31,789 DEBUG   SystemMonitor:101224 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-02-12 16:57:31,792 DEBUG   SenderThread:101224 [sender.py:send():336] send: stats
+2023-02-12 16:57:31,898 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:32,793 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:36,900 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:37,795 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:39,797 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:57:41,902 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:42,978 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:46,905 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:47,979 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:49,817 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:57:51,821 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:57:51,907 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: keepalive
+2023-02-12 16:57:53,450 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:55,547 DEBUG   SenderThread:101224 [sender.py:send():336] send: exit
+2023-02-12 16:57:55,548 INFO    SenderThread:101224 [sender.py:send_exit():559] handling exit code: 255
+2023-02-12 16:57:55,548 INFO    SenderThread:101224 [sender.py:send_exit():561] handling runtime: 83
+2023-02-12 16:57:55,552 INFO    SenderThread:101224 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-12 16:57:55,552 INFO    SenderThread:101224 [sender.py:send_exit():567] send defer
+2023-02-12 16:57:55,552 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,552 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 0
+2023-02-12 16:57:55,553 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,553 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-02-12 16:57:55,553 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 1
+2023-02-12 16:57:55,554 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,554 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 1
+2023-02-12 16:57:55,554 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,554 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-02-12 16:57:55,554 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 2
+2023-02-12 16:57:55,554 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,554 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 2
+2023-02-12 16:57:55,554 INFO    HandlerThread:101224 [system_monitor.py:finish():161] Stopping system monitor
+2023-02-12 16:57:55,555 DEBUG   SystemMonitor:101224 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-02-12 16:57:55,556 DEBUG   SystemMonitor:101224 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-02-12 16:57:55,558 INFO    HandlerThread:101224 [interfaces.py:finish():175] Joined cpu
+2023-02-12 16:57:55,558 INFO    HandlerThread:101224 [interfaces.py:finish():175] Joined disk
+2023-02-12 16:57:55,610 INFO    HandlerThread:101224 [interfaces.py:finish():175] Joined gpu
+2023-02-12 16:57:55,611 INFO    HandlerThread:101224 [interfaces.py:finish():175] Joined memory
+2023-02-12 16:57:55,611 INFO    HandlerThread:101224 [interfaces.py:finish():175] Joined network
+2023-02-12 16:57:55,611 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,612 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-02-12 16:57:55,612 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 3
+2023-02-12 16:57:55,612 DEBUG   SenderThread:101224 [sender.py:send():336] send: stats
+2023-02-12 16:57:55,612 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,612 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 3
+2023-02-12 16:57:55,613 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,613 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-02-12 16:57:55,613 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 4
+2023-02-12 16:57:55,613 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,613 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 4
+2023-02-12 16:57:55,614 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,614 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-02-12 16:57:55,614 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 5
+2023-02-12 16:57:55,614 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,615 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 5
+2023-02-12 16:57:55,615 DEBUG   SenderThread:101224 [sender.py:send():336] send: summary
+2023-02-12 16:57:55,619 INFO    SenderThread:101224 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-02-12 16:57:55,619 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,619 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-02-12 16:57:55,619 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 6
+2023-02-12 16:57:55,619 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,619 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 6
+2023-02-12 16:57:55,620 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,620 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-02-12 16:57:55,620 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 7
+2023-02-12 16:57:55,621 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: status_report
+2023-02-12 16:57:55,621 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:55,621 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 7
+2023-02-12 16:57:55,621 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:55,621 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-02-12 16:57:55,829 INFO    Thread-13 :101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/wandb-summary.json
+2023-02-12 16:57:56,548 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-12 16:57:57,533 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 8
+2023-02-12 16:57:57,533 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: poll_exit
+2023-02-12 16:57:57,533 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:57,533 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 8
+2023-02-12 16:57:57,534 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:57,534 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-02-12 16:57:57,535 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 9
+2023-02-12 16:57:57,535 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:57,536 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 9
+2023-02-12 16:57:57,536 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:57,537 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-02-12 16:57:57,537 INFO    SenderThread:101224 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-02-12 16:57:57,549 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-12 16:57:57,833 INFO    SenderThread:101224 [dir_watcher.py:_on_file_modified():292] file/dir modified: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:57:57,833 INFO    SenderThread:101224 [dir_watcher.py:finish():392] scan: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files
+2023-02-12 16:57:57,833 INFO    SenderThread:101224 [dir_watcher.py:finish():406] scan save: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/config.yaml config.yaml
+2023-02-12 16:57:57,833 INFO    SenderThread:101224 [dir_watcher.py:finish():406] scan save: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/wandb-metadata.json wandb-metadata.json
+2023-02-12 16:57:57,833 INFO    SenderThread:101224 [dir_watcher.py:finish():406] scan save: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/requirements.txt requirements.txt
+2023-02-12 16:57:57,833 INFO    SenderThread:101224 [dir_watcher.py:finish():406] scan save: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log output.log
+2023-02-12 16:57:57,837 INFO    SenderThread:101224 [dir_watcher.py:finish():406] scan save: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/wandb-summary.json wandb-summary.json
+2023-02-12 16:57:57,837 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 10
+2023-02-12 16:57:57,837 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: poll_exit
+2023-02-12 16:57:57,837 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:57,841 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 10
+2023-02-12 16:57:57,845 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:57,848 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-02-12 16:57:57,848 INFO    SenderThread:101224 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-12 16:57:58,163 INFO    wandb-upload_0:101224 [upload_job.py:push():138] Uploaded file /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/config.yaml
+2023-02-12 16:57:58,191 INFO    wandb-upload_3:101224 [upload_job.py:push():138] Uploaded file /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/wandb-summary.json
+2023-02-12 16:57:58,238 INFO    wandb-upload_1:101224 [upload_job.py:push():138] Uploaded file /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/requirements.txt
+2023-02-12 16:57:58,245 INFO    wandb-upload_2:101224 [upload_job.py:push():138] Uploaded file /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/files/output.log
+2023-02-12 16:57:58,446 INFO    Thread-12 :101224 [sender.py:transition_state():587] send defer: 11
+2023-02-12 16:57:58,446 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:58,446 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 11
+2023-02-12 16:57:58,447 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:58,447 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-02-12 16:57:58,447 INFO    SenderThread:101224 [file_pusher.py:join():167] waiting for file pusher
+2023-02-12 16:57:58,447 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 12
+2023-02-12 16:57:58,447 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:58,448 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 12
+2023-02-12 16:57:58,448 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:58,448 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-02-12 16:57:58,550 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-12 16:57:58,717 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 13
+2023-02-12 16:57:58,718 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: poll_exit
+2023-02-12 16:57:58,718 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:58,718 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 13
+2023-02-12 16:57:58,719 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:58,719 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-02-12 16:57:58,719 INFO    SenderThread:101224 [sender.py:transition_state():587] send defer: 14
+2023-02-12 16:57:58,720 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: defer
+2023-02-12 16:57:58,721 INFO    HandlerThread:101224 [handler.py:handle_request_defer():170] handle defer: 14
+2023-02-12 16:57:58,721 DEBUG   SenderThread:101224 [sender.py:send():336] send: final
+2023-02-12 16:57:58,721 DEBUG   SenderThread:101224 [sender.py:send():336] send: footer
+2023-02-12 16:57:58,721 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: defer
+2023-02-12 16:57:58,721 INFO    SenderThread:101224 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-02-12 16:57:58,722 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-12 16:57:58,723 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: poll_exit
+2023-02-12 16:57:58,724 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: poll_exit
+2023-02-12 16:57:58,725 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: poll_exit
+2023-02-12 16:57:58,725 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: server_info
+2023-02-12 16:57:58,726 DEBUG   SenderThread:101224 [sender.py:send_request():363] send_request: server_info
+2023-02-12 16:57:58,728 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: get_summary
+2023-02-12 16:57:58,729 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: sampled_history
+2023-02-12 16:57:58,865 INFO    MainThread:101224 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-02-12 16:57:58,866 INFO    MainThread:101224 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-02-12 16:57:58,866 INFO    MainThread:101224 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-02-12 16:57:58,866 DEBUG   HandlerThread:101224 [handler.py:handle_request():144] handle_request: shutdown
+2023-02-12 16:57:58,867 INFO    HandlerThread:101224 [handler.py:finish():841] shutting down handler
+2023-02-12 16:57:59,727 INFO    WriterThread:101224 [datastore.py:close():299] close: /gladstone/finkbeiner/kaye/StephanieLam/Genetech/genentech/wandb/run-20230212_165631-dpo5tv2d/run-dpo5tv2d.wandb
+2023-02-12 16:57:59,865 INFO    SenderThread:101224 [sender.py:finish():1493] shutting down sender
+2023-02-12 16:57:59,866 INFO    SenderThread:101224 [file_pusher.py:finish():162] shutting down file pusher
+2023-02-12 16:57:59,866 INFO    SenderThread:101224 [file_pusher.py:join():167] waiting for file pusher

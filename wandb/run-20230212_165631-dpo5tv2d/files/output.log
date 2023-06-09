@@ -1,0 +1,14 @@
+
+<wandb.sdk.wandb_run.Run object at 0x7faa0b4796a0>
+  File "<stdin>", line 1
+SyntaxError: can't assign to operator
+  File "<stdin>", line 1
+    python run.py --config-name=t1_train_t2_test_resnet18.yaml
+             ^
+SyntaxError: invalid syntax
+  File "<stdin>", line 1
+SyntaxError: can't assign to operator
+  File "<stdin>", line 1
+SyntaxError: can't assign to operator
+KeyboardInterrupt
+KeyboardInterrupt

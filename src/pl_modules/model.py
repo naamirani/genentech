@@ -161,7 +161,8 @@ class MyModel(pl.LightningModule):
         batch_size = self.cfg.data.datamodule.batch_size.val
         images, images_feat_viz = [], []
         for output_element in iterate_elements_in_batches(
-            outputs, batch_size, self.cfg.logging.n_elements_to_log
+#             outputs, batch_size, self.cfg.logging.n_elements_to_log
+            self.validation_step_outputs, batch_size, self.cfg.logging.n_elements_to_log
         ):  
             rendered_image = render_images(
                 output_element["image"],

@@ -35,6 +35,7 @@ class MyModel(pl.LightningModule):
             self_supervised=False,
             num_samples=False,
             batch_size=False,
+            task="binary",
             *args,
             **kwargs) -> None:
         super().__init__(*args, **kwargs)

@@ -1,7 +1,7 @@
 # metadata specialised for each experiment
 core:
   version: 0.0.1
-  experiment: t2_train_t1_test_resnet18
+  experiment: t1_train_t2_test_resnet18
   tags:
     - consulting
 
@@ -12,22 +12,20 @@ data:
   datamodule:
     _target_: src.pl_data.datamodule.MyDataModule
     val_proportion: 0.
-    dataset_name: SIMCLR_COR14  # Label for experiment
-    transform_recipe: SIMCLR_COR14
+    dataset_name: JAK  # Label for experiment
+    transform_recipe: COR14
     datasets:
-      SIMCLR_COR14:
-        train:
-          _target_: src.pl_data.dataset.SIMCLR_COR14
+          _target_: src.pl_data.dataset.JAK
           train: True
-          path: /gladstone/finkbeiner/kaye/NaufaAmirani/genentech/single_crops/JAK-GSGT2-Plate1/FIJI_All_T1
+          path: /content/drive/MyDrive/genentech_data/JAK-GSGT2-Plate1/FIJI_All_T1
         val:
-          _target_: src.pl_data.dataset.SIMCLR_COR14
+          _target_: src.pl_data.dataset.JAK
           train: False
-          path: /gladstone/finkbeiner/kaye/NaufaAmirani/genentech/single_crops/GSGT1-JAK-ZF-UC-NN5319AND5320-GEDI8-29-22/FIJI_All_T1
+          path: /content/drive/MyDrive/genentech_data/GSGT1-JAK-ZF-UC-NN5319AND5320-GEDI8-29-22/FIJI_All_T1
         test:
-          _target_: src.pl_data.dataset.SIMCLR_COR14
+          _target_: src.pl_data.dataset.JAK
           train: False
-          path: /gladstone/finkbeiner/kaye/NaufaAmirani/genentech/single_crops/GSGT1-JAK-ZF-UC-NN5319AND5320-GEDI8-29-22/FIJI_All_T1
+          path: /content/drive/MyDrive/genentech_data/GSGT1-JAK-ZF-UC-NN5319AND5320-GEDI8-29-22/FIJI_All_T1
     num_workers:
       train: 4
       val: 4
@@ -63,7 +61,7 @@ logging:
 
   wandb:
     project: genentech
-    entity: naamirani
+    entity: drewlinsley
 
     watch:
       log: 'all'
@@ -101,27 +99,8 @@ optim:
 train:
   # reproducibility
   deterministic: False
-  random_seed: 42
 
   # training
-  eval_only: False
-  ckpt: False
-  pl_trainer:
-    fast_dev_run: False # Enable this for debug purposes
-    gpus: 1
-    precision: 32
-    max_steps: 20000000
-    # accumulate_grad_batches: 1
-    # num_sanity_val_steps: 2
-    gradient_clip_val: 10000000.0  # 10.
-
-  monitor_metric: 'val_loss'
-  monitor_metric_mode: 'min'
-
-  early_stopping:
-    patience: 42
-    verbose: False
-
-  model_checkpoints:
-    save_top_k: 2
-    verbose: False
+  precision: 32  # 16
+  max_steps: 20000000
+  gradient_clip_val: 10

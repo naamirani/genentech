@@ -59,23 +59,6 @@ TRANSFORM_RECIPES = {
                 normalizations.COR14_normalization(),
             ]),
     },
-    "COR101416": {
-        "train": transforms.Compose([
-                transforms.ToTensor(),
-                transforms.RandomCrop(224),
-                transforms.RandomHorizontalFlip(),
-                transforms.RandomVerticalFlip(),
-                normalizations.COR14_normalization(),
-            ]),
-        "val": transforms.Compose([
-                transforms.ToTensor(),
-                normalizations.COR14_normalization(),
-            ]),
-        "test": transforms.Compose([
-                transforms.ToTensor(),
-                normalizations.COR14_normalization(),
-            ]),
-    },
     "SIMCLR_COR14": {
         "train": transforms.Compose([transforms.ToTensor(),]),
         "val": transforms.Compose([transforms.ToTensor(),]),

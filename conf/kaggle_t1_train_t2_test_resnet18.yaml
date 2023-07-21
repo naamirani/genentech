@@ -34,9 +34,9 @@ data:
       test: 4
 
     batch_size:
-      train: 32  # 240  # 128
-      val: 32 # 240  # 128
-      test: 32  # 128
+      train: 8 #32  # 240  # 128
+      val: 8 #32 # 240  # 128
+      test: 8 #32  # 128
 hydra:
   run:
     dir: ./experiments/${now:%Y-%m-%d}/${now:%H-%M-%S}
@@ -82,8 +82,8 @@ model:
 
 optim:
   optimizer:
-    #  Adam-oriented deep learning
-    _target_: torch.optim.Adam
+    #  SGD-oriented deep learning
+    _target_: torch.optim.SGD
     #  These are all default parameters for the Adam optimizer
     lr: 1e-3  # 0.001
     betas: [ 0.9, 0.999 ]
@@ -103,6 +103,6 @@ train:
   deterministic: False
 
   # training
-  precision: 32  # 16
+  precision: 16  # 32
   max_steps: 20000000
   gradient_clip_val: 10

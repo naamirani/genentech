@@ -140,6 +140,7 @@ def run(cfg: DictConfig) -> None:
                 cfg.model.name),
             project=wandb_config.project,
             entity=wandb_config.entity,
+            #mode="offline",
             tags=cfg.core.tags,
             log_model=True,
         )
